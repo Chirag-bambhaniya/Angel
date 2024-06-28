@@ -1,0 +1,185 @@
+.contact-bar{
+    background-image: linear-gradient(to right , #682c84 20% , #b82282 70%);
+}
+/*nav*/
+.gradient1{
+    background-image: linear-gradient(to right, #752b84 ,#aa2281, #b82283);
+}
+.gradient2{
+    background-image: linear-gradient(to left, #752b84 ,#aa2281, #b82283);
+}
+.gradient3{
+    background-image: linear-gradient(to top, #752b84 ,#aa2281, #b82283);
+}
+.icon{
+    color: #b82283;
+}
+.icon2{
+    color:#752b84 
+}
+.firstbu a{
+ /* Adjust padding as needed */
+    border: none; /* Remove border for a cleaner look */
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold; 
+    position: absolute;
+    top: 75%;
+    left: 3%;
+}
+@media (max-width: 767px) {
+    .firstbu a {
+        font-size: 13px;
+        left: 5%; /* Center horizontally on smaller screens */
+        transform: translateX(-5%); /* Center horizontally on smaller screens */
+    }
+  }
+  @media (max-width: 480px) {bnm,                      
+    .firstbu a {
+        font-size: 8px;
+        top: 75%; /* Center vertically on phone-sized screens */
+        left: 3%; /* Center horizontally on phone-sized screens */
+        transform: translate(-3%, -3%); /* Center both vertically and horizontally */
+    }
+  }
+  
+.firstbu:hover{
+    background-color: #752b84;
+  color: white;
+}
+  
+.text{
+    background-image:  linear-gradient(to right, #752b84 ,#aa2281, #b82283);
+    background-clip: text;
+    color: transparent;
+}
+   
+.text2{
+    background-image:  linear-gradient(to left, #752b84 , #b82283);
+    background-clip: text;
+    color: transparent;
+}
+ .crd{
+    background-color: rgb(243, 242, 242);
+    /* box-shadow: 2px 2px 5px black; */
+    
+ }
+.crd:hover {
+    transform: scale(1.05); /* Adjust the scale factor as needed */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+    box-shadow: 0px 0px 20px #752b84;
+}
+.picbg{
+    background-color: #edeaf3;
+}
+#courseDropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+}
+.navbar-nav .nav-item:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-item{
+    transition: background-color 0.3s ease-in-out;
+    
+}
+
+.dropdown-item:hover{
+    background-color: #75457e;
+    color: white;
+}
+      
+/* .navbar-nav .nav-link:hover{
+    border-bottom:3px solid #b82283;
+  } */
+/* .navbar-nav .nav-item .dropdown-menu:hover .dropdown-item{
+    color: #752b84;
+} */
+.dropdown:hover .dropdown-menu {
+    animation: slideIn 2s ease-in-out;
+}
+.navbar-nav > li {
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav > li.nav-item:hover > a.nav-link {
+    border-bottom: 2px solid #b82283  /* Change the color as needed */
+}
+.navbar-nav > li.nav-item:hover > a.btn {
+    border-bottom: none; /* Remove the border for the button */
+}
+    
+.lho:hover{
+    border-bottom: white 2px solid;
+}
+    
+.im:hover{
+    background-image:url('courese icon/1x/asset4.png');
+    background-size: initial;
+}
+
+
+.about{
+    margin-top: -15%;
+    font-weight: bold;
+}
+.text6{
+    color: purple;
+}
+.icon3{
+    color: purple;
+}
+.button{
+    color: purple;
+    border: 3px solid purple;
+    border-radius: 0px;
+}
+.text7{
+    color: purple;
+    font-weight: bolder;  
+}
+.main{
+    background-image: url(map.jpg);
+}
+.success{
+    background-color: #b82282;
+    height: 100px;
+    width: 91%;
+    padding: 3% 1%;
+    color: white;
+    border-radius: 5px  ;
+}
+.text5{
+    margin-left: 3%;
+}
+.text8{
+    margin-top: -8%;
+    margin-left: 110px;
+}
+.box{
+    width: 75px;
+    height: 80px;
+    background-color: purple;  
+}
+.text3{
+    margin-top: -65px;
+    margin-left: 30px;
+} 
+.text4{
+   margin-top: -35px;
+    margin-left: 30px;
+}
+.r1{
+    background-color: purple;
+}  
+.logo{
+    vertical-align: center;
+} 
+.logo_mark{
+    width: 40%;
+}
+.logo_mark1{
+    margin-top: 16%;
+}
